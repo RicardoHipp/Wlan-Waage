@@ -81,8 +81,6 @@ Bei diesem Aufbau werden vier 3-Draht-Wägezellen (Halbbrücken) zu einer Wheats
 **2. Mit dem HX711 verbinden:**
 * Die vier roten Kabel der Wägezellen werden jeweils an einen der vier Anschlüsse (E+, E-, A+, A-) des HX711 angeschlossen. Die genaue Zuordnung ist für die Funktion nicht kritisch, beeinflusst aber das Vorzeichen des Rohwerts. Sollte die Waage bei Belastung negative Werte anzeigen, müssen die Anschlüsse A+ und A- getauscht werden.
 
-Hier ist ein typisches Anschluss-Schema:
-![Bild eines Anschluss-Schemas für 4 Wägezellen](https://raw.githubusercontent.com/queuetue/Q2-Scale/master/docs/4-wire-load-cell-wiring-diagram.png)
 
 ---
 
@@ -96,7 +94,7 @@ Hier ist ein typisches Anschluss-Schema:
 
 2.  **WLAN-Daten eintragen / Enter Wi-Fi Credentials:**
     * Öffne den Code in der Arduino IDE.
-    * Trage deine WLAN-Zugangsdaten in den folgenden Zeilen ein:
+    * **WICHTIG:** Trage deine WLAN-Zugangsdaten in den folgenden Zeilen ein:
         ```cpp
         const char* ssid = "DEIN_WLAN_NAME";
         const char* password = "DEIN_WLAN_PASSWORT";
