@@ -26,8 +26,8 @@ const int DOUT_PIN = D2;
 const int CLK_PIN = D1;
 
 // --- WLAN ---
-const char* ssid = "SSID here";
-const char* password = "Password here";
+const char* ssid = "DEIN_WLAN_NAME";
+const char* password = "DEIN_WLAN_PASSWORT";
 
 // --- Timing ---
 unsigned long previousMeasureMillis = 0;
