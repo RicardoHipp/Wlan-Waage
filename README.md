@@ -47,7 +47,7 @@ Measurements can be read live in any web browser and can optionally be sent via 
 | Wägezelle(n) / Load Cell(s) | 1x 4-Draht-Wägezelle ODER 4x 3-Draht-Wägezellen / 1x 4-wire load cell OR 4x 3-wire load cells |
 | Kabel / Wires | Jumper-Kabel zur Verbindung / Jumper wires for connection |
 | Optional: Kondensatoren | 1x `10µF` & 1x `0.1µF` zur Stabilisierung der Stromversorgung des HX711 / for stabilizing the HX711 power supply |
-
+| Druckteil - Halter für Wägezellen | https://cults3d.com/de/modell-3d/werkzeuge/load-cell-fixture-case-hx711-half-bridge-optimized?srsltid=AfmBOordfFli0OBHj6XnrbtMF942MLudxzlciNzLXRgrjj0jz9OWTwwW |
 ---
 
 ## Verkabelung / Wiring
